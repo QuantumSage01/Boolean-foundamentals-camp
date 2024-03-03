@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+/* TESTA DEL SITO */
+
+.Contenitore{
+    padding: 50px; /*si sposta 50px dall'alto e da sinistra*/
+}
+
+.add-album a{
+    color: #3481d0;
+    font-size: 40px;
+}
+
+h1{
+    margin-top: 35px;
+    float: left; /* metto alla totale sinistra */
+}
+
+.See-All{
+    margin-top: 50px;
+    color: #3481d0;
+    font-size: 17px;
+    float: right; /* metto alla totale destra */
+}
+
+header::after{
+    /* si usa per terminare gli elementi float credo */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+/* CORPO DEL SITO */
+
+.album {
+    float: left;
+    width: calc(100% / 6 - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Immagine {
+    width: 100%; /* La larghezza dell'immagine è ora relativa all'elemento .album */
+    margin-top: 30px;
+}
+
+.main-text{
+    margin-top: 5px;
+}
+
+.numero{
+    margin-top: 5px;
+    color: grey;
+}
+
+.add-album, .See-All, .Immagine:hover{
+    cursor: pointer; /*fa' si   che quando il cursore passa sul "+", "see all" e sulle immagini, fa finta che siano cliccabili*/
+}

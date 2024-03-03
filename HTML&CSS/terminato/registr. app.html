@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Registrazione App</title>
+    </head>
+    <body>
+        <h1>Registrazione app</h1>
+        <hr>
+       <form action="test.html" method = "post">
+            <div>
+                <!-- selezione nome -->
+                <input type="text" name="Nome" placeholder="Inserisci il tuo nome" required minlength="3">
+            </div>
+            <div>
+                <!-- selezione cognome -->
+                <input type="text" name="Cognome" placeholder="Inserisci il tuo cognome" required minlength="3">
+            </div>
+            <div>
+                <!-- selezione email -->
+                <input type="email" name="Email" placeholder="Inserisci la tua email" required>
+            </div>
+            <div>
+                <!-- selezione regione -->
+                <select name="regione" required>
+                    <option name="Sicilia">Sicilia</option>
+                    <option name="Calabria">Calabria</option>
+                    <option name="Basilicata">Basilicata</option>
+                    <option name="Puglia">Puglia</option>
+                    <option name="Campania">Campania</option>
+                    <option name="Molise">Molise</option>
+                    <option name="Abruzzo">Abruzzo</option>
+                    <option name="Lazio">Lazio</option>
+                    <option name="Sardegna">Sardegna</option>
+                    <option name="Umbria">Umbria</option>
+                    <option name="Marche">Marche</option>
+                    <option name="Toscana">Toscana</option>
+                    <option name="Emilia-Romagna">Emilia-Romagna</option>
+                    <option name="Liguria">Liguria</option>
+                    <option name="Veneto">Veneto</option>
+                    <option name="Lombardia">Lombardia</option>
+                    <option name="Piemonte">Piemonte</option>
+                    <option name="Valle D'Aosta">Valle D'Aosta</option>
+                    <option name="Trentino Alto-Adige">Trentino Alto-Adige</option>
+                    <option name="Friuli Venezia Giulia">Friuli Venezia Giulia</option>
+                </select>
+            </div>
+            <div>
+                <!-- selezione età -->
+                <input type="radio" name="Età" value="Minorenne" required> 0-18
+                <input type="radio" name="Età" value="Maggiorenne" required> 18+
+            </div>
+            <div>
+                <!-- accettazione termini e condizioni -->
+                <input type="checkbox" name="AccettaTermini" value="accettato" required> Accetto i <a href="https://about.instagram.com/it-it/blog/announcements/instagram-community-terms-of-use-faqs">termini e condizioni</a>
+            </div>
+                <!-- invio -->
+                <input type="submit" value="Invia">
+       </form>
+    </body>
+</html>

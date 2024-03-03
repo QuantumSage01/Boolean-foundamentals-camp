@@ -1,0 +1,33 @@
+body{
+    background-color: green;
+}
+
+.contenitore{
+    /* creo i contenitori dei quadrati */
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+}
+
+.Quadrato{
+    /* Dimensioni di ogni quadrato */
+    width: 50px;
+    height: 50px;
+}
+
+.Rosso{
+    /* Quadrato Giallo */
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Giallo{
+    /* Quadrato Giallo */
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,26 @@
+header{
+    text-align: center; /*Allineamento della presentazione della persona di cui cv presentato*/
+    margin-top: 0; /*per far sì che non ci sia quella brutta linea bianca tra la linea superiore e il testo e immagine*/
+    background-color: lightgrey; /*il colore dello sfondo della testa*/
+    }
+
+hr{
+    border-color: orange; /*Per dar alla linea orizzonrale il colore arancione*/
+}
+
+img {
+    width: 200px; /*per ridimensioare l'img*/
+}
+
+main{
+    padding: 8px;
+}
+
+section > h2{
+    color: orange; /*colore attributo ai temi di cui si parla nel cv*/
+    line-height: 10px;
+}
+
+footer > p{
+    font-size: small; /*per far diventare il footer un vero footer*/
+}

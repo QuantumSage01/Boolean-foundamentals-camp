@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+    color: white;
+}
+
+#Logo-Gmail{
+    width: 100px;
+}
+
+#Logo-Font{
+    font-size: 20px;
+    display: inline-block;
+}
+
+#contenitore{
+    width: 50%;
+    margin: auto;
+}
+
+#Cerchio{
+    border-radius: 50%; /* da un radio per far diventare l'oggetto un cercgio */
+    background-color: rgb(254,165,0);
+    padding: 3px;
+}
+
+.Row-Left{
+    width: 30%;
+    display: inline-block;
+}
+
+.Row-Right{
+    width: 68%;
+    display: inline-block;
+}
+
+.Oggetto-Mail{
+    color: black;
+}
+
+.Corpo-Mail{
+    color: gray;
+}
+
+.read{
+    background-color: rgb(211,211,211);
+}
+
+.unread{
+    background-color:rgb(255,255,255);
+}
+
+footer{
+    text-align: center;
+}
+
+.Gmail-footer{
+    font-size: 30px;
+}

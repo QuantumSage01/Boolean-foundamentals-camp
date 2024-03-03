@@ -1,0 +1,43 @@
+body{
+    width: 908px;
+    margin: auto;
+}
+
+.Contenitore{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.Sconto{
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 30px; /* centra il testo al centro dell'altezza */
+}
+
+.Alto{
+    background-color: red;
+}
+
+.Basso{
+    background-color: green;
+}
+
+.Contenitore > img{
+    cursor: pointer; /* rende il cursore la mano col dito che clicca */
+}
+
+.Cuore{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+    color: red;
+    display: none;  /* fa sì che non sia visibile */
+   
+}
+
+.Contenitore:hover .Cuore{
+    display: block; /* fa si che quando vai sopra alle immagini, contenuti nella classe contenitore, il cuore diventa visibile */
+}
